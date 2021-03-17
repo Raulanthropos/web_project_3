@@ -1,0 +1,10 @@
+.cover__background {
+  background-image: url(../../../sprint-3-images-en/cover-route-66.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.cover__background:hover {
+  opacity: 0.3;
+}

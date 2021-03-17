@@ -1,0 +1,17 @@
+.header__lang-link-1 {
+  padding-right: 18px;
+  text-decoration: underline;
+  width: 22px;
+}
+
+.header__lang-link-1:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-link-1 {
+    width: 29px;
+    height: 28px;
+  }
+}
