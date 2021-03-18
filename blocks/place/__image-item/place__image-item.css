@@ -1,0 +1,12 @@
+.place__image-item {
+  width: 100%;
+  margin-bottom: 24px;
+  margin-left: 0px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .place__image-item {
+    grid-area: image;
+  }
+}

@@ -1,7 +1,67 @@
 @import url(./__description/place__description.css);
 @import url(./__image-item/place__image-item.css);
+@import url(./__image/place__image.css);
 @import url(./__link/place__link.css);
 @import url(./__paragraph/place__paragraph.css);
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
+
+.place {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(calc((100% - 28px) / 2), 1fr));
+    grid-template-areas: repeat(3, auto);
+    grid-template-areas:
+    "title url ."
+    "image description description"
+    "image description description"
+    ;
+  width: 100%;
+  row-gap: 48px;
+  column-gap: 28px;
+  margin: 0 24px;
+  
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(calc((100% - 28px) / 2), 1fr));
+    grid-template-areas: repeat(3, auto);
+    grid-template-areas:
+    "title url ."
+    "image description description"
+    "image description description"
+    ;
+  width: 100%;
+  row-gap: 80px;
+  column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(calc((100% - 28px) / 2), 1fr));
+    grid-template-areas: repeat(3, auto);
+    grid-template-areas:
+    "title url ."
+    "image description description"
+    "image description description"
+    ;
+  width: 100%;
+  row-gap: 80px;
+  column-gap: 40px;
+  }
+}

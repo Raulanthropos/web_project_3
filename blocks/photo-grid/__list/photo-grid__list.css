@@ -4,14 +4,13 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat (12, 1fr);
   gap: 12px;
-
 }
 
 @media screen and (min-width: 768px) {
   .photo-grid__list {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    gap: 18px;
+    gap: 16px;
   }
 }
 
@@ -19,7 +18,7 @@
   .photo-grid__list {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 18px;
+    gap: 14px;
   }
 }
 
@@ -27,6 +26,6 @@
   .photo-grid__list {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 18px;
+    gap: 16px;
   }
 }
