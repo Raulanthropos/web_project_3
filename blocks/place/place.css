@@ -24,8 +24,7 @@
     grid-template-areas:
     "title url ."
     "image description description"
-    "image description description"
-    ;
+    "image description description";
   width: 100%;
   row-gap: 48px;
   column-gap: 28px;
@@ -42,8 +41,7 @@
     grid-template-areas:
     "title url ."
     "image description description"
-    "image description description"
-    ;
+    "image description description";
   width: 100%;
   row-gap: 80px;
   column-gap: 32px;
@@ -58,8 +56,7 @@
     grid-template-areas:
     "title url ."
     "image description description"
-    "image description description"
-    ;
+    "image description description";
   width: 100%;
   row-gap: 80px;
   column-gap: 40px;
