@@ -1,6 +1,5 @@
 .lead__title {
   width: 90%;
-  height: 88px;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-size: 40px;
@@ -13,7 +12,6 @@
   .lead__title {
     margin: 0 auto;
     max-width: 720px;
-    height: 200px;
     font-size: 96px;
     line-height: 100px;
   }

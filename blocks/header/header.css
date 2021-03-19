@@ -1,8 +1,8 @@
 @import url(./__logo/header__logo.css);
 @import url(./__list/header__list.css);
 @import url(./__lang-link/header__lang.css);
-@import url(./__lang-link-1/header__lang-link-1.css);
-@import url(./__lang-link-2/header__lang-link-2.css);
+@import url(./__lang-link-one/header__lang-link-one.css);
+@import url(./__lang-link-two/header__lang-link-two.css);
 
 .header {
   font-family: 'Inter', sans-serif;
@@ -14,7 +14,6 @@
   padding: 0;
   width: 90%;
   margin: 20px auto 0;
-  height: 36px;
   display: flex;
   justify-content: space-between;
 }
@@ -23,7 +22,6 @@
   .header {
     width: calc(100% - 48px);
     margin: 34px auto 0;
-    height: 44px;
     font-size: 24px;
     line-height: 28px;
   }
@@ -33,7 +31,6 @@
   .header {
     width: calc(100% - 96px);
     margin: 34px auto 0;
-    height: 44px;
   }
 }
 
@@ -41,6 +38,5 @@
   .header {
     width: calc(100% - 296px);
     max-width: 984px;
-    height: 44px;
   }
 }

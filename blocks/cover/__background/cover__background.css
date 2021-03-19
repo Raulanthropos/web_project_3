@@ -1,6 +1,7 @@
 .cover__background {
-  background-image: url(../../../sprint-3-images-en/cover-route-66.jpg);
+  background-image: url(../../../images/cover-route-66.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   width: 100%;
 }
