@@ -1,13 +1,13 @@
-# Project 3: From Portland to Portland
+# Practicum by Yandex - Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+####### A web responsive project about a coast-to-coast road trip.
 
-**Intro**
+## Overview
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. For this project, we used Figma, HTML and CSS and media queries in particular. 
+###### The webpage was developed fully using a Figma briefing for each of the resolution intervals. It is programmed on a with a mobile-first approach and with the following breakpoints in mind: >320px, >425px, >768px, >1024px, >1280px.
 
-*[Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
-*Sprint 3 ()
+## Contributions
+
+###### The project is a part of the curriculum of Practicum by Yandex, and was solely developed by 'Raulanthropos'
+
+##### Link to the project : https://raulanthropos.github.io/web_project_3/
