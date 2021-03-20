@@ -1,6 +1,6 @@
 # Practicum by Yandex - Project 3: From Portland to Portland
 
-####### A web responsive project about a coast-to-coast road trip.
+###### A web responsive project about a coast-to-coast road trip.
 
 ## Overview
 
