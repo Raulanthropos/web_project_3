@@ -4,7 +4,7 @@
 
 ## Overview
 
-###### The webpage was developed fully using a Figma briefing for each of the resolution intervals. It is programmed on a with a mobile-first approach and with the following breakpoints in mind: >320px, >425px, >768px, >1024px, >1280px.
+###### The webpage was developed fully with HTML and CSS, using a Figma briefing for each of the resolution intervals. It is programmed with a mobile-first approach and with the following breakpoints in mind: >320px, >425px, >768px, >1024px, >1280px.
 
 ## Contributions
 
