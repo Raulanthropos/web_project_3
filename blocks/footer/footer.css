@@ -1,6 +1,7 @@
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__nav-links/footer__nav-links.css);
 
 .footer {
   margin-left: 16px;
@@ -11,13 +12,11 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  border: 2px solid red;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
     flex-direction: row;
-    justify-content: space-between;
     width: calc(100% - 24px * 2);
     max-width: 720px;
     margin: 88px auto 24px;

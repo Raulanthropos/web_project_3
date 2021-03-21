@@ -1,20 +1,52 @@
 .cover__background-link {
+  background-image: url(../../../images/cover-route-66.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(42, 44, 47);
+  opacity: 0.8;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
-  min-height: 200px;
-  font-family: 'Inter', sans-serif;
-  color: #fff;
+  margin: 0 auto;
+  max-width: 100%;
+  font-family: "Inter", sans-serif;
   background-color: transparent;
   text-decoration: none;
   text-align: center;
+  transition: 0.4s ease;
+  padding-top: 18.4%;
+  padding-bottom: 18.4%;
+  color: #fff;
+}
+
+.cover__background-link:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.cover__background-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: inherit;
 }
 
 @media screen and (min-width: 768px) {
   .cover__background-link {
-    padding-top: 17%;
-    padding-bottom: 17%;
+    padding-top: 24%;
+    padding-bottom: 24%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__background-link {
+    padding-top: 25%;
+    padding-bottom: 25%;
   }
 }

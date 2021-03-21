@@ -29,5 +29,5 @@
   .lead__subtitle {
     width: calc(100% + 296px - (330px * 2));
     margin: 33px auto 63px;
-  }
+    }
 }
