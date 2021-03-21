@@ -1,23 +1,11 @@
 .photo-grid__item {
-  object-fit: contain;
+  object-fit: cover;
   width: 90%;
   height: auto;
 }
 
 @media screen and (min-width: 768px) {
   .photo-grid__item {
-    width: calc(100% - 16px);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .photo-grid__item {
-    width: calc(100% - 14px);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .photo-grid__item {
-    width: calc(100% - 16px);
+    width: 100%;
   }
 }
