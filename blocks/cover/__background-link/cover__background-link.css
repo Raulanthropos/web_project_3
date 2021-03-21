@@ -16,7 +16,6 @@
   background-color: transparent;
   text-decoration: none;
   text-align: center;
-  transition: 0.4s ease;
   padding-top: 18.4%;
   padding-bottom: 18.4%;
   color: #fff;
@@ -25,6 +24,7 @@
 .cover__background-link:hover {
   cursor: pointer;
   opacity: 0.3;
+  transition: 0.4s;
 }
 
 .cover__background-link::before {
