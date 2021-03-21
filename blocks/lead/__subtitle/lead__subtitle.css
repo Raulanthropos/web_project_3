@@ -22,9 +22,6 @@
 @media screen and (min-width: 1024px) {
   .lead__subtitle {
     width: calc(100% + 96px - (202px * 2));
-    margin: 32px auto 56px;
-    font-size: 30px;
-    line-height: 36px;
   }
 }
 
@@ -32,7 +29,5 @@
   .lead__subtitle {
     width: calc(100% + 296px - (330px * 2));
     margin: 33px auto 63px;
-    font-size: 30px;
-    line-height: 36px;
   }
 }

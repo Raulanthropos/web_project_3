@@ -11,11 +11,13 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+  border: 2px solid red;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
     flex-direction: row;
+    justify-content: space-between;
     width: calc(100% - 24px * 2);
     max-width: 720px;
     margin: 88px auto 24px;
@@ -24,7 +26,6 @@
 
 @media screen and (min-width: 1024px) {
   .footer {
-    flex-direction: row;
     width: calc(100% - 48px * 2);
     max-width: 1184px;
     margin: 92px auto 24px;

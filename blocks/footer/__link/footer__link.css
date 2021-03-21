@@ -7,12 +7,11 @@
 
 .footer__link:hover {
   cursor: pointer;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
   .footer__link {
-    display: block;
     padding-bottom: 0;
     padding-right: 18px;
   }

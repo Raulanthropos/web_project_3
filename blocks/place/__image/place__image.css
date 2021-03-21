@@ -5,20 +5,17 @@
 @media screen and (min-width: 768px) {
   .place__image {
     width: 340px;
-    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .place__image {
     width: 440px;
-    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .place__image {
     width: 460px;
-    max-width: 100%;
   }
 }
