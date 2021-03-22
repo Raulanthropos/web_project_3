@@ -8,6 +8,6 @@
 
 ## Contributions
 
-###### The project is a part of the curriculum of Practicum by Yandex, and was solely developed by 'Raulanthropos'
+###### The project is a part of the curriculum of Practicum by Yandex, and was solely developed by 'Raulanthropos'.
 
 ##### Link to the project : https://raulanthropos.github.io/web_project_3/
