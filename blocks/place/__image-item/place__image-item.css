@@ -8,5 +8,7 @@
 @media screen and (min-width: 768px) {
   .place__image-item {
     grid-area: image;
+    margin: 0;
+    padding: 0;
   }
 }

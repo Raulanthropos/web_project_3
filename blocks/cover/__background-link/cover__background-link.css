@@ -1,9 +1,4 @@
 .cover__background-link {
-  background-image: url(../../../images/cover-route-66.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,21 +15,27 @@
   color: #fff;
 }
 
-.cover__background-link:hover {
-  cursor: pointer;
-  opacity: 0.3;
-  transition: 0.4s;
-}
-
 .cover__background-link::before {
   content: "";
+  background-image: url(../../../images/cover-route-66.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: inherit;
+  background-color: rgba(42, 44, 47, 0.3);
 }
+
+.cover__background-link:hover::before {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.4s;
+}
+
+
 
 @media screen and (min-width: 768px) {
   .cover__background-link {

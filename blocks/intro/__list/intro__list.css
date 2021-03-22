@@ -8,3 +8,9 @@
   list-style-type: none;
   margin-top: 34px;
 }
+
+@media screen and (min-width: 768px) {
+  .intro__list {
+    width: 93.75%;
+  }
+}
