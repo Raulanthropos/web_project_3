@@ -3,12 +3,6 @@
   background-color: transparent;
   color: white;
   margin: 0;
-  padding-right: 18px;
-}
-
-.header__lang-link:nth-child(2) {
-  padding-right: 0;
-  margin-right: 0;
 }
 
 .header__lang-link:hover {
