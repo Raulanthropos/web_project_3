@@ -1,12 +1,11 @@
 .place__title {
-  margin: 0 16px 30px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
   width: 90%;
-  align-self: flex-end;
+  margin-left: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -14,9 +13,7 @@
     grid-area: title;
     font-size: 42px;
     line-height: 46px;
-    margin-left: 0;
-    margin-bottom: 0;
-    align-self: auto;
+    margin: 0;
   }
 }
 
