@@ -35,15 +35,21 @@
   transition: 0.4s;
 }
 
-
 @media screen and (min-width: 768px) {
   .cover__background-link {
-    padding-top: 24%;
-    padding-bottom: 24%;
+    padding-top: 21.40%;
+    padding-bottom: 21.40%;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  .cover__background-link {
+    padding-top: 23.85%;
+    padding-bottom: 23.85%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .cover__background-link {
     padding-top: 25%;
     padding-bottom: 25%;
